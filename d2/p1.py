@@ -2,10 +2,6 @@ from flask import Flask,request, render_template, redirect,url_for , make_respon
 
 app = Flask(__name__)
 
-def cookie(key:str,value:str):
-    res = make_response()
-    res.set_cookie(key, value)
-    return res
 
 @app.route("/",methods = ["GET","POST"])
 def index():
