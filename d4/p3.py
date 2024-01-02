@@ -1,5 +1,4 @@
 import requests
-import multiprocessing
 from pathlib import Path
 import time
 import asyncio
