@@ -8,7 +8,7 @@ class Task(BaseModel):
     id: int
     name: str
     description: str
-    status: Optional[str] = "Не завершена"
+    status: Optional[str] = "Не выполнена"
 
 
 tasks: list[Task] = []
