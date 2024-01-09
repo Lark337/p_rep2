@@ -2,11 +2,7 @@ from sqlalchemy import Column, Integer, String, DateTime, ForeignKey, Float
 from sqlalchemy.ext.declarative import declarative_base
 from datetime import datetime
 
-# аблица товаров должна содержать следующие поля: id (PRIMARY KEY), название, описание и цена.
-
-
 Base = declarative_base()
-
 
 class User(Base):
     __tablename__ = "users"
